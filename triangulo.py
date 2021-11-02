@@ -12,16 +12,16 @@ b = float(input('Digite a altura 1: '))
 c = float(input('Digite a altura 2: '))
 
 if(a < 0) or (b < 0) or (c < 0): #VERIFICA SE FOI DIGITADO ALGUM NUMERO NEGATIVO
-   print ('-> DIGITES VALORES POSITIVOS !!!')
+   print ('-> DIGITE VALORES POSITIVOS !!!')
 
 if (a + b < c) or (a + c < b) or (b + c < a):# VERIFICA SE É UM TRIANGULO
    print ('Os seguimento {}, {} e {}, NÃO FORMAM um triangulo'.format(a, b, c))
 elif (a == b) and (a == c): #EQUILATERO
    area = (a * b) / 2
    print('Triangulo Equilatero e sua area é {}'.format(area))
-elif(a == b) or (a == c) or (b == c):
+elif(a == b) or (a == c) or (b == c): #ISOSCELES
    area = (a * b) / 2
-   print('Triangulo Isosceles e sua area é {}'.format(area)) #ISOSCELES
+   print('Triangulo Isosceles e sua area é {}'.format(area))
 else:
    area = (a * b) / 2
    print('Triangulo Escaleno e sua area é {}'.format(area)) #ESCALENO
