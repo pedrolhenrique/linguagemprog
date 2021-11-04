@@ -1,5 +1,5 @@
-"""Faça um programa que leia a idade de uma pessoa expressa
-em dia,mes e ano e  mostra em anos meses e dia."""
+"""Faça um programa que leia a idade de uma pessoa expressa em dias e
+mostre-a expressa em anos, meses e dias."""
 
 
 from datetime import date
