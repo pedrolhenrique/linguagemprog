@@ -3,7 +3,7 @@ con = sqlite3.connect('imc.db')
 cur = con.cursor()
 # criando a tabela
 cur.execute ("""
-CREATE TABLE  indice(
+CREATE TABLE  indice
         id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
         nome varchar(100),
         peso varchar(4),
